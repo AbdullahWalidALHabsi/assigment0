@@ -5,6 +5,10 @@ var fs= require("fs");
 var filename='grammer.pegjs';
 var grammerDemo=fs.readFileSync(filename,'utf-8');
 var parser = peg.generate(grammerDemo);
-var input='4410038386';
+var input='441003836';
 var output =parser.parse(input);
 console.log(output);
+console.log(output);
+
+console.log(output);
+
